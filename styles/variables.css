@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", monospace;
+  --main-text-weight: 410;
+  --card-title-weight: 715;
+  --text-color: #000;
+  --button-text: #fff;
+  --main-bg-color: #fff;
+  --button-bg-color: #fff;
+  --accent-color: #000;
+  --stroke-color: #fff; /* Цвет обводки */
+  --bg-image:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --container-width: clamp(375px, 100%, 700px);
+  --logo-font-size: clamp(3.063rem, 2.76rem + 1.5vw, 4.063rem);
+  --header-title-size: clamp(14px, 0.85vw + 10.8px, 23px);
+  --card-title-size: 1.125rem;
+  --main-text-size: 1.125rem;
+  --card-content-gap: clamp(22.5px, 30.038px - 1.077vw, 26px);
+  /* Внутренние отступы header */
+  --header-padding-block: clamp(7.625rem, 7.38rem + 1.03vw, 8.313rem);
+  --header-padding-inline: clamp(1rem, -1.72rem + 11.6vw, 7.656rem);
+  /* внешние отступы header */
+  --header-margin-block: clamp(94px, calc(99.4px - 0.38vw), 98px);
+  /* цвета для сердца */
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+}

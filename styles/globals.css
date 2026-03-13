@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+form {
+  display: contents;
+}
+
 h1,
 h2,
 h3,
