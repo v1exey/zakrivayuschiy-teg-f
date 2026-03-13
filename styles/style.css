@@ -103,13 +103,13 @@
 /* Фоллбэк (запасной вариант) для старых браузеров */
 .card__label {
   text-shadow: 
-    1px 1px 0 var(--stroke-color), 
-    -1px -1px 0 var(--stroke-color), 
-    1px -1px 0 var(--stroke-color), 
+    1px 1px 0 var(--stroke-color),
+    -1px -1px 0 var(--stroke-color),
+    1px -1px 0 var(--stroke-color),
     -1px 1px 0 var(--stroke-color);
 }
 
-.card__text{
+.card__text {
   font-variation-settings: 'wght' var(--main-text-weight), "slnt" 0;
   font-size: var(--main-text-size);
 }
@@ -160,7 +160,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 38px; /* такая же, как у .card__like-button */
+  height: 38px;
   border: 2px solid transparent;
   background: transparent;
   padding: 0;
@@ -177,14 +177,12 @@
 }
 
 .like-icon {
-  width: 39px;
-  height: 36px;
   transform-origin: center;
 }
 
 .like-icon:hover .core {
   fill: var(--accent-color);
-  transition: fill 0.3s linear; /* задержка 0s по умолчанию */
+  transition: fill 0.3s linear;
 }
 
 .like-icon:hover .main-body {
@@ -207,24 +205,20 @@
   transition: fill 0.3s linear 0s;
 }
 
-/* Основное тело: красный цвет, задержка 0.05s */
 .like-icon.is-liked .main-body {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear 0.05s;
 }
 
-/* Контур: красный цвет, задержка 0.06s, длительность 0.3s */
 .like-icon.is-liked .contour {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear 0.06s;
 }
 
-/* Анимация масштабирования для всей группы сердца */
 .like-icon.is-liked .heart {
   animation: heart-scale 0.3s ease-in 0.1s;
 }
 
-/* Анимация искр (появление и исчезновение) */
 .like-icon.is-liked .sparks {
   animation: sparks 0.3s ease-in 0.2s;
 }
