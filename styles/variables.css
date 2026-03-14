@@ -20,12 +20,16 @@
   --card-title-size: 1.125rem;
   --main-text-size: 1.125rem;
   --card-content-gap: clamp(22.5px, 30.038px - 1.077vw, 26px);
+  --padding-card-content: clamp(25px, 0.19vw + 24.3px, 27px);
   /* Внутренние отступы header */
   --header-padding-block: clamp(7.625rem, 7.38rem + 1.03vw, 8.313rem);
   --header-padding-inline: clamp(1rem, -1.72rem + 11.6vw, 7.656rem);
   /* внешние отступы header */
-  --header-margin-block: clamp(94px, calc(99.4px - 0.38vw), 98px);
+  --header-margin-block: clamp(94px, calc(99.4px - 0.38vw), 97px);
   /* цвета для сердца */
   --contour-color: #000000;
   --animation-fill-color: #ff0000;
+  /* размеры изображения */
+  --width-image-container: clamp(371px, 30.52vw + 256.5px, 696px);
+  --height-image-container: clamp(371px, 30.52vw + 256.5px, 696px);
 }
